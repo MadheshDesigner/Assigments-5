@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    background-color: #54c3ef;
+}
+
+h1{
+    color: #e9c93f;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.container{
+    width: 600px;
+    height: 1360px;
+    background-color: #2b3252;
+    margin: 20px auto;
+    border-radius: 6px;
+}
+.child_cont>h3{
+    padding:40px 20px 10px 10px;
+    color: #e9c93f;
+}
+input{
+    margin-left: 20px;
+}
+.input1,span{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 15px;
+    color: #e9c93f;
+
+}
+
+.border{
+    border: 1px solid #e9c93f;
+    margin-top: 20px;
+    width: 560px;
+    position: relative;
+    left: 20px;
+}
+
+.container>button{
+    margin: 30px 10px 10px 260px;
+    padding: 8px 15px;
+    background-color: #e9c93f;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lable{
+    width: 150px;
+    height: 250px;
+    background-color: #ffff;
+    position: absolute;
+    top: 138px;
+    left: 990px;
+    border-radius: 7px;
+}
+.lable>h4{
+    font-size: 30px;
+    margin: 20px;
+}
+.lable>div{
+    margin:40px 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#span_el{
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
